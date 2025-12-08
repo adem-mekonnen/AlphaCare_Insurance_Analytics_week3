@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# General folder exclusions
+data/raw/
+data/processed/
+
+# DVC EXCEPTION: Allow all .dvc files to be tracked by Git
+!**/*.dvc
+
+.DS_Store
