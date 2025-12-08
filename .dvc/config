@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = C:/Users/DELL70~1/AppData/Local/Temp/dvc_storage
