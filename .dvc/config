@@ -1,4 +1,6 @@
 [core]
-    remote = localstorage
+    remote = localstore
 ['remote "localstorage"']
     url = C:/Users/DELL70~1/AppData/Local/Temp/dvc_storage
+['remote "localstore"']
+    url = C:/dvc_storage_alphacare

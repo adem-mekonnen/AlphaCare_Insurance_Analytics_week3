@@ -10,3 +10,10 @@ data/processed/
 !**/*.dvc
 
 .DS_Storedata/MachineLearningRating_v3.txt
+venv/
+__pycache__/
+.DS_Store
+# Ignore the data folder...
+data/
+# ...BUT DO NOT ignore the DVC metadata files!
+!data/*.dvc
