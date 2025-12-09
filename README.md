@@ -1,4 +1,4 @@
-```markdown
+markdown
 # AlphaCare Insurance Risk Analytics & Predictive Modeling
 
 ![CI/CD Status](https://github.com/adem-mekonnen/AlphaCare_Insurance_Analytics_week3/actions/workflows/unittests.yml/badge.svg)
@@ -16,7 +16,7 @@ This project, undertaken for AlphaCare Insurance Solutions (ACIS), utilizes hist
 
 This repository follows a standard MLOps-ready structure ensuring modularity, reproducibility, and auditability.
 
-```text
+text
 AlphaCare_Insurance_Analytics/
 │
 ├── .github/workflows/       # CI/CD Pipelines (Tests & Linting)
@@ -34,7 +34,7 @@ AlphaCare_Insurance_Analytics/
 ├── .dvcignore               # DVC configuration
 ├── .gitignore               # Git configuration
 └── requirements.txt         # Python dependencies
-```
+
 
 ---
 
@@ -105,3 +105,4 @@ Based on the analysis, ACIS should:
 2.  **Focus Marketing:** Target high-margin postal codes identified in Task 3.
 3.  **Review Vehicle Classes:** Apply surcharges to specific high-risk vehicle types identified by the SHAP analysis.
 ```
+
