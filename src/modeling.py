@@ -1,3 +1,14 @@
+
+"""
+Module: modeling.py
+Description:
+    This script trains and evaluates multiple regression models (Linear, RF, XGBoost)
+    to predict insurance claim severity. It includes SHAP analysis for interpretability.
+
+Author: Adem Mekonnen
+Date: Dec 2025
+"""
+# ... rest of your code ...
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
