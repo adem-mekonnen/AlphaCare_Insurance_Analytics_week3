@@ -1,3 +1,6 @@
+## 🏁 Project Status
+> **Completed:** December 2025
+> All modeling tasks, hypothesis testing, and reporting are finalized.
 # AlphaCare Insurance Risk Analytics & Predictive Modeling
 
 ![CI/CD Status](https://github.com/adem-mekonnen/AlphaCare_Insurance_Analytics_week3/actions/workflows/unittests.yml/badge.svg)
