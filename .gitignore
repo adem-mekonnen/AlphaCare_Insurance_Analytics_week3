@@ -9,4 +9,4 @@ data/processed/
 # DVC EXCEPTION: Allow all .dvc files to be tracked by Git
 !**/*.dvc
 
-.DS_Store
+.DS_Storedata/MachineLearningRating_v3.txt
