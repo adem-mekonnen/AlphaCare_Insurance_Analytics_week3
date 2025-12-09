@@ -1,0 +1,33 @@
+name: Python CI/CD
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install flake8
+
+    - name: Run Linting (Relaxed Mode)
+      # The --exit-zero flag tells GitHub to turn GREEN even if it finds errors.
+      run: |
+        flake8 src --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 src --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Run Unit Tests
+      # If you haven't set up tests yet, this simple command will just check imports
+      run: |
+        echo "Running sanity check..."
+        python -c "import pandas; import numpy; print('Environment is ready!')"
